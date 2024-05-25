@@ -4,17 +4,19 @@
 	<title>ziolo</title>
 	<style>
 		body  {
-		  background-image: url("Untitled-888.png");
+			font-family: Papyrus, fantasy;
+			background-image: url("Untitled-888.png");
 		}
 		h1{
-				@keyframes mymove {
+			animation: mymove 5s infinite;
+		}
+						@keyframes mymove {
 				  from {color: red;}
 				  to {color: yellow;}
-		}
 	</style>
 </head>
 <body>
-	<marquee> 
+	<marquee direction="right" scrollamount="20"> 
 		<h1>
 			Marihuana leczy, żywi nas i ubiera
 			W Albańskim Gangu łatwo natknąć się na dilera
@@ -24,5 +26,9 @@
 		</h1>
 	</marquee>
 	<img src="3dgifmaker34270.gif">
+	<marquee direction="left" scrollamount="27" behavior="alternate">
+		<img src="3dgifmaker34270.gif">
+	</marquee>
 </body>
 </html>
+
